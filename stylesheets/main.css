@@ -1,0 +1,117 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.boxmain{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header {
+    background-color: #1a0000;
+    color: white;
+    padding-top: 30px;    
+    min-height: 80px;
+    border-bottom: 3px solid;
+    border-bottom-color: #ff6a00;
+}
+
+header a{
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:14px;    
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:0 25px 0 25px;
+}
+
+header #apptitle{
+    float:left;
+}
+header #apptitle h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:15px;
+}
+
+header a:hover {
+        color: #ff6a00;
+        font-size: 16px;
+}
+
+#homepagecontent {
+    min-height: 400px;
+    background: url('../images/mainimage2.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#services{
+    margin-top:20px;
+
+}
+
+#services .boxsmall{
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+}
+
+#services .boxsmall img {
+    width:200px;
+}
+.backgroundform {
+    padding: 15px;
+    background: #808080;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    margin-left: 150px;
+}
+/*bookappointment page*/
+aside#sideservicelist {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+article#bookpagehead{
+    float:left;
+    width:65%;
+}
+
+#bookappointment{
+    padding-left:100px;
+}
+
+.backgroundform input,
+.backgroundform textarea{
+        width:100%;
+        padding:5px;
+    }
+footer {
+        padding: 20px;
+        margin-top: 20px;
+        color: #ffffff;
+        background-color: #1a0000;
+        text-align: center;
+    }
